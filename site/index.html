@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ShoeStore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>ShoeStore</h1>
+      <nav>
+        <a href="#">Головна</a>
+        <a href="#">Товари</a>
+        <a href="#">Контакти</a>
+      </nav>
+
+      <p id="cart-count">Корзина: 0</p>
+    </header>
+    <div class="cart">
+      <h2>Корзина</h2>
+      <ul id="cart-items"></ul>
+      <p id="total-price">Сума: 0 грн</p>
+      <button id="checkout-btn">Оформити замовлення</button>
+    </div>
+
+    <section class="hero">
+      <h2>Стильне взуття для кожного</h2>
+      <button>Купити зараз</button>
+    </section>
+
+    <section class="products">
+      <h2>Наші товари</h2>
+
+      <div class="card">
+        <img src="img/nike.jpg" alt="" />
+        <h3>Nike Air</h3>
+        <p class="price">3000</p>
+        <button class="add-to-cart">В кошик</button>
+      </div>
+
+      <div class="card">
+        <img src="img/adidas.jpg" alt="" />
+        <h3>Adidas Run</h3>
+        <p class="price">2800</p>
+        <button class="add-to-cart">В кошик</button>
+      </div>
+
+      <div class="card">
+        <img src="img/jordan.jpg" alt="" />
+        <h3>Air Jordan</h3>
+        <p class="price">2500</p>
+        <button class="add-to-cart">В кошик</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 ShoeStore</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
